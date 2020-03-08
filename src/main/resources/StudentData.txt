@@ -1,2 +1,0 @@
-Student(6330,Amity,Manas)
-Student(6351,Amity,Umang)
