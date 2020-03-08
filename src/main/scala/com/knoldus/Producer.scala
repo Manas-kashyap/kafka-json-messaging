@@ -7,7 +7,7 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 object Producer extends App {
 
 
-  writeToKafka("Muskan")
+  writeToKafka("Manas")
 
 
   def writeToKafka(topic: String): Unit = {

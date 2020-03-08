@@ -2,9 +2,9 @@ package com.knoldus
 
 import net.liftweb.json.DefaultFormats
 
-case class User(id: Int, name: String, age: Int, address: String)
 
-object Demo extends App {
+
+object AppDriver extends App {
   implicit val formats = DefaultFormats
 
   def listProducer: List[User] = {
@@ -20,8 +20,8 @@ object Demo extends App {
     val jsonString =
       """  [
      {
-       "id": 0001,
-       "name":"your name",
+       "id": 6330,
+       "name":"Manas",
        "age":25,
        "address":"Delhi"
 }
